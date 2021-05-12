@@ -8,6 +8,11 @@
     <artifactId>simple_maven_docker_integration</artifactId>
     <version>1.0.0</version>
 
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <build>
         <finalName>docker-jenkins-integration-sample</finalName>
     </build>
